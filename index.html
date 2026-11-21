@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Sergio Rosales, estudiante de Diseño y Desarrollo de Software.">
+  <title>Sergio Rosales | Portafolio de Diseño y Desarrollo de Software</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#inicio" aria-label="Inicio"><img src="imagenes/sergio-rosales.jpeg" alt=""></a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="navegacion" hidden>Menú</button>
+      <nav id="navegacion" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Portafolio</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contactos">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <aside class="social" aria-label="Compartir en redes sociales" hidden>
+    <button type="button" data-red="facebook" aria-label="Compartir en Facebook"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M14 21v-8h2.7l.4-3H14V8c0-.9.3-1.5 1.6-1.5h1.7V3.8a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.4V10H8v3h2.6v8z"/></svg></span><span class="social-label" aria-hidden="true">Facebook</span></button>
+    <button type="button" data-red="whatsapp" aria-label="Compartir en WhatsApp"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 2a9.8 9.8 0 0 0-8.5 14.7L2 22l5.5-1.4A9.9 9.9 0 1 0 12 2Zm0 1.8a8.1 8.1 0 1 1-4.1 15l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 0 1 12 3.8Zm-3.6 4c-.3 0-1 .5-1 1.6 0 1 .8 2.4 1 2.6.1.2 1.5 2.4 3.8 3.3 2 .8 2.5.7 3.1.6.5-.1 1.3-.6 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-1.8-1-2.1-1-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-1.5-.6-2.4-1.3-3.1-2.6-.1-.2 0-.4.2-.5l.5-.7c.1-.2 0-.3-.1-.5l-.7-1.5c-.1-.2-.2-.5-.5-.5z"/></svg></span><span class="social-label" aria-hidden="true">WhatsApp</span></button>
+    <button type="button" data-red="x" aria-label="Compartir en X"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M17.3 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.3L4.8 21H1.7l7.3-8.3L1.3 3h6.4l4.4 5.8zM16.2 19.2h1.7L6.8 4.7H5z"/></svg></span><span class="social-label" aria-hidden="true">X</span></button>
+    <button type="button" data-red="linkedin" aria-label="Compartir en LinkedIn"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5.1 2.8a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.2 8.7H7V21H3.2Zm6.2 0H13v1.7h.1a4 4 0 0 1 3.6-2c3.8 0 4.5 2.4 4.5 5.5V21h-3.8v-6.3c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V21H9.4z"/></svg></span><span class="social-label" aria-hidden="true">LinkedIn</span></button>
+    <p class="social-status" role="status"></p>
+  </aside>
+  <main id="contenido">
+    <section class="hero beige" id="inicio">
+      <div class="wrap">
+        <img class="perfil" src="imagenes/sergio-rosales.jpeg" alt="Avatar de Sergio Rosales">
+        <h1>Sergio Rosales</h1>
+        <p>Soy estudiante de Diseño y Desarrollo de Software. Me interesa crear páginas web que combinen diseño visual, programación e interacciones fáciles de usar.</p>
+        <a class="button" href="#galeria">Ver portafolio <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+    <section class="section wrap" id="nosotros">
+      <h2>Sobre mí</h2>
+      <p class="center intro">En mi formación combino el diseño de interfaces con la programación. Trabajo con HTML, CSS y JavaScript para construir páginas adaptables, y con PHP y MySQL para guardar información desde la web.</p>
+      <h3 class="subheading">Especialidades</h3>
+      <div class="four specialties">
+        <figure><img src="imagenes/diseno.jpg" alt="" width="640" height="420" loading="lazy"><figcaption>Diseño visual</figcaption></figure>
+        <figure><img src="imagenes/datos.jpg" alt="" width="640" height="420" loading="lazy"><figcaption>Organización de datos</figcaption></figure>
+        <figure><img src="imagenes/codigo.jpg" alt="" width="640" height="420" loading="lazy"><figcaption>Programación web</figcaption></figure>
+        <figure><img src="imagenes/prototipo.jpg" alt="" width="640" height="420" loading="lazy"><figcaption>Prototipado de interfaces</figcaption></figure>
+      </div>
+    </section>
+    <section class="section services" id="servicios">
+      <div class="services-image" aria-hidden="true"></div>
+      <div class="wrap services-content">
+        <h2>Servicios</h2>
+        <div class="services-grid">
+          <article><span class="service-icon" aria-hidden="true">✒</span><h3>Diseño visual</h3><p>Paletas, tipografía y composición para dar identidad a una página.</p></article>
+          <article><span class="service-icon" aria-hidden="true">▣</span><h3>Desarrollo web</h3><p>Páginas con HTML, CSS y JavaScript que se adaptan a cada pantalla.</p></article>
+          <article><span class="service-icon" aria-hidden="true">♡</span><h3>Experiencia de usuario</h3><p>Interfaces con navegación clara y acciones fáciles de entender.</p></article>
+          <article><span class="service-icon" aria-hidden="true">◎</span><h3>Accesibilidad</h3><p>Contraste, etiquetas y navegación por teclado para facilitar el uso.</p></article>
+          <article><span class="service-icon" aria-hidden="true">✦</span><h3>Prototipado</h3><p>Bocetos y flujos para explorar ideas de interfaz antes de programar.</p></article>
+          <article><span class="service-icon" aria-hidden="true">▤</span><h3>Formularios y datos</h3><p>Validación de formularios y almacenamiento de mensajes con PHP y MySQL.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap" id="galeria">
+      <h2>Portafolio</h2>
+      <div class="four projects">
+        <article class="project featured-project">
+          <a href="https://academiatriunfa.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer"><img src="imagenes/academia-triunfa.png" alt="Portada del sitio web de Academia Triunfa" width="1056" height="640" loading="lazy"></a>
+          <p><a href="https://academiatriunfa.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">Visitar Academia Triunfa <span aria-hidden="true">↗</span></a></p>
+        </article>
+        <article class="project">
+          <a href="https://www.miguelpallin.com/Animac.%20CSS3%20and%20Bootstrap%20-%20Sesion%2009(Practica%20Calificada.)/index.html" target="_blank" rel="noopener noreferrer"><img src="imagenes/sesion-09.png" alt="Portada de Nuevas Tecnologías 2020 · Sesión 09" width="1056" height="640" loading="lazy"></a>
+          <p><a href="https://www.miguelpallin.com/Animac.%20CSS3%20and%20Bootstrap%20-%20Sesion%2009(Practica%20Calificada.)/index.html" target="_blank" rel="noopener noreferrer">Nuevas Tecnologías 2020 · Sesión 09 <span aria-hidden="true">↗</span></a></p>
+        </article>
+        <article class="project">
+          <a href="https://www.miguelpallin.com/Animac.%20CSS3%20and%20Bootstrap%20-%20Sesion%2012(Examen%20Parcial.)/index.html" target="_blank" rel="noopener noreferrer"><img src="imagenes/sesion-12.png" alt="Portada de Libros Tecnológicos · Sesión 12" width="1056" height="640" loading="lazy"></a>
+          <p><a href="https://www.miguelpallin.com/Animac.%20CSS3%20and%20Bootstrap%20-%20Sesion%2012(Examen%20Parcial.)/index.html" target="_blank" rel="noopener noreferrer">Libros Tecnológicos · Sesión 12 <span aria-hidden="true">↗</span></a></p>
+        </article>
+        <article class="project">
+          <a href="https://www.miguelpallin.com/bimdisa/index.html" target="_blank" rel="noopener noreferrer"><img src="imagenes/bimdisa.png" alt="Portada de Comercial BIMDISA" width="1056" height="640" loading="lazy"></a>
+          <p><a href="https://www.miguelpallin.com/bimdisa/index.html" target="_blank" rel="noopener noreferrer">Comercial BIMDISA <span aria-hidden="true">↗</span></a></p>
+        </article>
+      </div>
+    </section>
+    <section class="section beige testimonials" id="testimonios">
+      <div class="wrap">
+        <h2>Testimonios</h2>
+        <div class="testimonials-grid">
+          <figure class="quote">
+            <img class="testimonial-photo" src="imagenes/testimonio-miguel.png" alt="Avatar de caricatura de Miguel Pallin" width="128" height="128" loading="lazy">
+            <figcaption><strong>Miguel Pallin</strong><span>Docente</span></figcaption>
+            <blockquote>«Es un alumno(a), con muchas ganas de aprender en los lenguajes de Programación y que se adapta a todo tipo de software.»</blockquote>
+          </figure>
+          <figure class="quote">
+            <img class="testimonial-photo" src="imagenes/testimonio-milder.png" alt="Avatar de caricatura de Milder Quispe Ticona" width="128" height="128" loading="lazy">
+            <figcaption><strong>Milder Quispe Ticona</strong></figcaption>
+            <!-- Comentario de ejemplo; reemplazar por el testimonio real. -->
+            <blockquote>«Sergio demuestra dedicación en cada proyecto y siempre está dispuesto a aprender y compartir sus conocimientos de programación.»</blockquote>
+          </figure>
+          <figure class="quote">
+            <img class="testimonial-photo" src="imagenes/testimonio-juan.png" alt="Avatar de caricatura de Juan Martinez" width="128" height="128" loading="lazy">
+            <figcaption><strong>Juan Martinez</strong></figcaption>
+            <!-- Comentario de ejemplo; reemplazar por el testimonio real. -->
+            <blockquote>«Es un compañero creativo y responsable, que aporta buenas ideas y busca soluciones para mejorar cada trabajo en equipo.»</blockquote>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap" id="contactos">
+      <h2>Contacto</h2>
+      <div class="contact-grid">
+        <div class="contact-side">
+          <div class="contact-photo">
+            <img src="imagenes/contacto.png" width="1200" height="800" alt="Computadora en un escritorio de trabajo" loading="lazy">
+            <div class="contact-caption">
+              <h3>Hablemos</h3>
+              <p>¿Tienes una pregunta o una idea de proyecto? Envíame un mensaje.</p>
+            </div>
+          </div>
+        </div>
+        <form id="formulario" action="contacto.php" method="post">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" autocomplete="name" required maxlength="100">
+          <label for="correo">Correo electrónico</label>
+          <input id="correo" name="correo" type="email" autocomplete="email" required maxlength="254">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required maxlength="2000"></textarea>
+          <div hidden aria-hidden="true"><label for="sitio">Sitio web</label><input id="sitio" name="sitio" tabindex="-1" autocomplete="off"></div>
+          <small>Tu nombre, correo y mensaje se guardarán para poder responderte.</small>
+          <button class="button" type="submit">Enviar mensaje</button>
+          <p id="estado" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap bar"><span>Sergio Rosales · Diseño y Desarrollo de Software</span><a href="#inicio">Volver al inicio ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen (integrada)",
+  "reference": "sergio-rosales.jpeg",
+  "prompts": [
+    "Square website testimonial avatar of a friendly middle-aged male teacher, short dark hair with a little gray, glasses, navy shirt, head and shoulders centered with generous crop space. Match the reference's 2D cartoon illustration, bold black outlines, expressive brown eyes, warm skin shading, plain turquoise background. Fictional character, no text, no watermark.",
+    "Square website testimonial avatar of a friendly young adult man with warm medium brown skin, straight short black hair, dark green shirt, head and shoulders centered with generous crop space. Match the reference's 2D cartoon illustration, bold black outlines, expressive brown eyes, warm skin shading, plain turquoise background. Fictional character distinct from reference, no text, no watermark.",
+    "Square website testimonial avatar of a friendly young adult man with warm tan skin, short wavy dark brown hair, blue shirt, head and shoulders centered with generous crop space. Match the reference's 2D cartoon illustration, bold black outlines, expressive brown eyes, warm skin shading, plain turquoise background. Fictional character distinct from reference, no text, no watermark."
+  ]
+}
